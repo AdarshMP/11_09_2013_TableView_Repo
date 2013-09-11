@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>TableViewLogicTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>TableviewExample 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>TableviewExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0585D20617C331D600EAD50C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05B5266A17E08A3B00E7AA3C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

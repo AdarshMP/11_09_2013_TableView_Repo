@@ -19,7 +19,31 @@
 		0585D22417C331D600EAD50C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0585D22217C331D600EAD50C /* MainStoryboard.storyboard */; };
 		0585D23817C3372900EAD50C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0585D23717C3372900EAD50C /* TableViewController.m */; };
 		0585D23B17C339EB00EAD50C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0585D23A17C339EB00EAD50C /* SettingsViewController.m */; };
+		05B5266D17E08A3B00E7AA3C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B5266C17E08A3B00E7AA3C /* SenTestingKit.framework */; };
+		05B5266E17E08A3B00E7AA3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0585D20A17C331D600EAD50C /* UIKit.framework */; };
+		05B5266F17E08A3B00E7AA3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0585D20C17C331D600EAD50C /* Foundation.framework */; };
+		05B5267517E08A3B00E7AA3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05B5267317E08A3B00E7AA3C /* InfoPlist.strings */; };
+		05B5267F17E08BEE00E7AA3C /* WowUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B5267E17E08BEE00E7AA3C /* WowUtilsTests.m */; };
+		05B5268517E096C400E7AA3C /* WowUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B5268317E0969900E7AA3C /* WowUtils.m */; };
+		05B5268917E0983500E7AA3C /* WowUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B5268317E0969900E7AA3C /* WowUtils.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05B5268617E096F500E7AA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0585D1FF17C331D500EAD50C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05B5266A17E08A3B00E7AA3C;
+			remoteInfo = TableViewLogicTests;
+		};
+		05B5268A17E0984300E7AA3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0585D1FF17C331D500EAD50C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0585D20617C331D600EAD50C;
+			remoteInfo = TableviewExample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0585D20717C331D600EAD50C /* TableviewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableviewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +64,15 @@
 		0585D23717C3372900EAD50C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 		0585D23917C339EB00EAD50C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		0585D23A17C339EB00EAD50C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		05B5266B17E08A3B00E7AA3C /* TableViewLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05B5266C17E08A3B00E7AA3C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		05B5267217E08A3B00E7AA3C /* TableViewLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewLogicTests-Info.plist"; sourceTree = "<group>"; };
+		05B5267417E08A3B00E7AA3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05B5267917E08A3B00E7AA3C /* TableViewLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		05B5267D17E08BEE00E7AA3C /* WowUtilsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtilsTests.h; sourceTree = "<group>"; };
+		05B5267E17E08BEE00E7AA3C /* WowUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WowUtilsTests.m; sourceTree = "<group>"; };
+		05B5268017E08D9E00E7AA3C /* WowUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WowUtils.h; sourceTree = "<group>"; };
+		05B5268317E0969900E7AA3C /* WowUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WowUtils.m; path = ../WowUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +86,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B5266717E08A3B00E7AA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B5266D17E08A3B00E7AA3C /* SenTestingKit.framework in Frameworks */,
+				05B5266E17E08A3B00E7AA3C /* UIKit.framework in Frameworks */,
+				05B5266F17E08A3B00E7AA3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0585D21017C331D600EAD50C /* TableviewExample */,
+				05B5267017E08A3B00E7AA3C /* TableViewLogicTests */,
 				0585D20917C331D600EAD50C /* Frameworks */,
 				0585D20817C331D600EAD50C /* Products */,
 			);
@@ -69,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				0585D20717C331D600EAD50C /* TableviewExample.app */,
+				05B5266B17E08A3B00E7AA3C /* TableViewLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +124,7 @@
 				0585D20A17C331D600EAD50C /* UIKit.framework */,
 				0585D20C17C331D600EAD50C /* Foundation.framework */,
 				0585D20E17C331D600EAD50C /* CoreGraphics.framework */,
+				05B5266C17E08A3B00E7AA3C /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +158,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		05B5267017E08A3B00E7AA3C /* TableViewLogicTests */ = {
+			isa = PBXGroup;
+			children = (
+				05B5267117E08A3B00E7AA3C /* Supporting Files */,
+				05B5267D17E08BEE00E7AA3C /* WowUtilsTests.h */,
+				05B5268017E08D9E00E7AA3C /* WowUtils.h */,
+				05B5268317E0969900E7AA3C /* WowUtils.m */,
+				05B5267E17E08BEE00E7AA3C /* WowUtilsTests.m */,
+			);
+			path = TableViewLogicTests;
+			sourceTree = "<group>";
+		};
+		05B5267117E08A3B00E7AA3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05B5267217E08A3B00E7AA3C /* TableViewLogicTests-Info.plist */,
+				05B5267317E08A3B00E7AA3C /* InfoPlist.strings */,
+				05B5267917E08A3B00E7AA3C /* TableViewLogicTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,11 +194,31 @@
 			buildRules = (
 			);
 			dependencies = (
+				05B5268717E096F500E7AA3C /* PBXTargetDependency */,
 			);
 			name = TableviewExample;
 			productName = TableviewExample;
 			productReference = 0585D20717C331D600EAD50C /* TableviewExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		05B5266A17E08A3B00E7AA3C /* TableViewLogicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05B5267C17E08A3B00E7AA3C /* Build configuration list for PBXNativeTarget "TableViewLogicTests" */;
+			buildPhases = (
+				05B5266617E08A3B00E7AA3C /* Sources */,
+				05B5266717E08A3B00E7AA3C /* Frameworks */,
+				05B5266817E08A3B00E7AA3C /* Resources */,
+				05B5266917E08A3B00E7AA3C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B5268B17E0984300E7AA3C /* PBXTargetDependency */,
+			);
+			name = TableViewLogicTests;
+			productName = TableViewLogicTests;
+			productReference = 05B5266B17E08A3B00E7AA3C /* TableViewLogicTests.octest */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -155,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				0585D20617C331D600EAD50C /* TableviewExample */,
+				05B5266A17E08A3B00E7AA3C /* TableViewLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -172,13 +261,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B5266817E08A3B00E7AA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B5267517E08A3B00E7AA3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B5266917E08A3B00E7AA3C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0585D20317C331D600EAD50C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05B5268517E096C400E7AA3C /* WowUtils.m in Sources */,
 				0585D21717C331D600EAD50C /* main.m in Sources */,
 				0585D21B17C331D600EAD50C /* TableviewAppDelegate.m in Sources */,
 				0585D23817C3372900EAD50C /* TableViewController.m in Sources */,
@@ -186,7 +300,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		05B5266617E08A3B00E7AA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05B5268917E0983500E7AA3C /* WowUtils.m in Sources */,
+				05B5267F17E08BEE00E7AA3C /* WowUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B5268717E096F500E7AA3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05B5266A17E08A3B00E7AA3C /* TableViewLogicTests */;
+			targetProxy = 05B5268617E096F500E7AA3C /* PBXContainerItemProxy */;
+		};
+		05B5268B17E0984300E7AA3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0585D20617C331D600EAD50C /* TableviewExample */;
+			targetProxy = 05B5268A17E0984300E7AA3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0585D21317C331D600EAD50C /* InfoPlist.strings */ = {
@@ -203,6 +339,14 @@
 				0585D22317C331D600EAD50C /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		05B5267317E08A3B00E7AA3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05B5267417E08A3B00E7AA3C /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +430,36 @@
 			};
 			name = Release;
 		};
+		05B5267A17E08A3B00E7AA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewLogicTests/TableViewLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TableViewLogicTests/TableViewLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05B5267B17E08A3B00E7AA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewLogicTests/TableViewLogicTests-Prefix.pch";
+				INFOPLIST_FILE = "TableViewLogicTests/TableViewLogicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -303,6 +477,15 @@
 			buildConfigurations = (
 				0585D22B17C331D600EAD50C /* Debug */,
 				0585D22C17C331D600EAD50C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05B5267C17E08A3B00E7AA3C /* Build configuration list for PBXNativeTarget "TableViewLogicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05B5267A17E08A3B00E7AA3C /* Debug */,
+				05B5267B17E08A3B00E7AA3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

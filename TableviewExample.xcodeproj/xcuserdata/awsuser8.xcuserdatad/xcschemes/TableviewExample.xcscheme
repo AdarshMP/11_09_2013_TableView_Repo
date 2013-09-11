@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "05B5266A17E08A3B00E7AA3C"
+               BuildableName = "TableViewLogicTests.octest"
+               BlueprintName = "TableViewLogicTests"
+               ReferencedContainer = "container:TableviewExample.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
